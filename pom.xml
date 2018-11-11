@@ -27,6 +27,12 @@
   </properties>
 
   <dependencies>
+    <!-- pinyin4j 汉字转拼音的依赖包   add by xionghawien 2018.11.11-->
+    <dependency>
+      <groupId>com.belerweb</groupId>
+      <artifactId>pinyin4j</artifactId>
+      <version>2.5.0</version>
+    </dependency>
 
     <!--Allure美化testNG报告 add by 吴令 20181104-->
     <dependency>

@@ -9,11 +9,12 @@
       <class name="com.guoyasoft.testCase.AcccatshbookcontrollerTest">
         <methods>
           <!--自定义内容4：要执行/排除的方法，以及执行顺序（从上到下）-->
-          <include name="testlogin"/>
+          <include name="testlogup"/>
+          <include name="logintest"/>
+          <include name="changpwd"/>
          <!-- <include name="signUp"></include>-->
         </methods>
       </class>
-
     </classes>
   </test>
 </suite>
